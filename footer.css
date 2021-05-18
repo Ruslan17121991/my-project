@@ -1,0 +1,63 @@
+footer{
+	display: flex;
+	margin: 15px -8px 0px -8px ;
+	justify-content:space-around;
+	background: #2a83998f;
+	padding-bottom: 10px;
+}
+
+footer > ul, li{
+	/* background: #2a83998f; */
+	list-style: none;
+	font-size: 20px;	
+}
+
+ .map{
+	width: 95%;
+	height: 270px;
+	margin: 0 auto;
+	margin-top: 30px;
+} 
+
+iframe{
+    width:100%;
+    height: 250px; 
+   border: 2px solid black;
+}
+
+.footer-page{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	background: #a5212167;
+	margin: 0px -8px -7px -8px;
+}
+
+.insta , .vk, .facebook{
+	width: 40px;
+	height: 40px;
+}
+
+.footer > ul, li, a{
+color: black;
+}
+
+.footer-a{
+    font-size: 20px;
+	color: black;
+} 
+
+.social-network > ul li a{
+position: relative;
+top: -13px;
+}
+
+span{
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+.adress{
+font-size: 20px;
+}

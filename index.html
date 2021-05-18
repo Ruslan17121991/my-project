@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="subscriptions.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>My project</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="wrapp-header">
+                <div class="website">Лучшее кино на <a href="#">www.kino.com</a></div>
+                <div class="btn-wrapper"> <button class="btn-account-login  btn-header">Войти в аккаунт</button> </div>
+                <form class="account-login">
+                    <label>Логин: <input type="text"></label>
+                    <label>Пароль: <input type="password"></label>
+                    <label for="#"><input type="button" class="btn-header" value="Подтвердить вход"></label>
+
+                </form>
+                <div><button class="btn-account-registration btn-header">Зарегистрироваться</button></div>
+               
+                <form class="account-registration">
+                        <label for="#">Имя:<input type="text"></label>
+                        <label for="#">Мобильный тел.:<input type="number"></label>
+                        <label for="#">Адрес эл.почты: <input type="email"></label> 
+                        <label for="#">Логин:<input type="text"></label> 
+                        <label for="#">Пароль:<input type="password"></label>
+                        <label for="#">Повторите пароль:<input type="password"></label>
+                        <label for="#"><input type="button" class="btn-header btn-reg" value="Подтвердить регистрацию"></label>
+                    </form>
+            <div class="review"> <button class="btn-popup-open">Оставить отзыв</button></div>
+               <div class="popup-bg">
+                   <div class="popup">
+                       <span class="close-popup">X</span>
+                      <label> Напишите отзыв:
+                        <textarea  cols="30" rows="10" placeholder="Введите текст"></textarea>
+                      </label> 
+                      <input type="button" value="Отправить"> 
+                   </div>
+               </div>
+              
+               
+            </div>
+        </div>
+        <div>
+
+            <div class="body">
+                <div class="img-one">
+                    <img class="image normal" src="images/images1-2021.jpg" alt="">
+                    <img class="image hover" src="images/images2021.jpg" alt="">
+                    <p class="online">Онлайн</p>
+                    <p class="kino">кино</p>
+                </div>
+
+                <div class="wrapper-films">
+                   
+                    <!-- <div class="search-film">Поиск фильма:<input type="text"
+                            placeholder="Введите фильм"><span class="out"><a href="#"></a></span>
+                    </div> -->
+
+
+                    <div class="film-2021">Фильмы 2021</div>
+
+                    <div class="list-of-films">
+                        <div class="films-genre">Комедии 
+                            <ol>
+                                <li><a href="#">Том и Джерри</a></li>
+                                <li><a href="#">Поездка в Америку 2</a></li>
+                                <li><a href="#">Айнбо. Сердце Амазонии</a></li>
+                                <li><a href="#">Вместе-вместе</a></li>
+                                <li><a href="#">Губка Боб в бегах</a></li>
+                            </ol>
+                        </div>
+                        <div class="films-genre">Боевики
+                            <ol>
+                                <li><a href="#">Лига справедливости Зака Снайдера</a></li>
+                                <li><a href="#">Годзилла против Конга</a></li>
+                                <li><a href="#">Никто</a></li>
+                                <li><a href="#">Мортал Комбат</a></li>
+                                <li><a href="#">День курка</a></li>
+                            </ol>
+                        </div>
+                        <div class="films-genre">Драммы
+                            <ol>
+                                <li><a href="#">Дьявол в деталях</a></li>
+                                <li><a href="#">Мавританец</a></li>
+                                <li><a href="#">Асоциальная сеть</a></li>
+                                <li><a href="#">Палмер</a></li>
+                                <li><a href="#">Блаженство</a></li>
+                            </ol>
+                        </div>
+                        <div class="films-genre">Военные
+                            <ol>
+                                <li><a href="#">Том и Джерри</a></li>
+                                <li><a href="#">Поездка в Америку 2</a></li>
+                                <li><a href="#">Айнбо. Сердце Амазонии</a></li>
+                                <li><a href="#">Вместе-вместе</a></li>
+                                <li><a href="#">Губка Боб в бегах</a></li>
+                            </ol>
+                        </div>
+                        <div class="films-genre">Триллеры
+
+                            <ol>
+                                <li><a href="#">Лига справедливости Зака Снайдера</a></li>
+                                <li><a href="#">Годзилла против Конга</a></li>
+                                <li><a href="#">Никто</a></li>
+                                <li><a href="#">Мортал Комбат</a></li>
+                                <li><a href="#">День курка</a></li>
+                            </ol>
+                        </div>
+                        <div class="films-genre">Фантастика
+                            <ol>
+                                <li><a href="#">Дьявол в деталях</a></li>
+                                <li><a href="#">Мавританец</a></li>
+                                <li><a href="#">Асоциальная сеть</a></li>
+                                <li><a href="#">Палмер</a></li>
+                                <li><a href="#">Блаженство</a></li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="film-container">
+                                <button class="btn-prev"><</button>
+                                <button class="btn-next">></button>
+                                <div class="film-polosa">
+                                    <div class="film-card">
+                                        1
+                                        <img class='one' src="images/trafic.jpg" alt="">
+                                        <button class="btn-see">Смотреть онлайн</button>
+                                        <button class="btn-iz">Добавить в избранное</button>
+                                    </div>
+                                    <div class="film-card">
+                                        2
+                                        <img class='one' src="images/2021f2.jpg" alt="">
+                                        <button class="btn-see">Смотреть онлайн</button>
+                                        <button class="btn-iz">Добавить в избранное</button>
+                                    </div>
+                                    <div class="film-card">
+                                        3
+                                        <img class='one' src="images/2021f3.jpg" alt="">
+                                        <button class="btn-see">Смотреть онлайн</button>
+                                        <button class="btn-iz">Добавить в избранное</button>
+                                    </div>
+                                    <div class="film-card">
+                                        4
+                                        <img class='one' src="images/2021f4.jpg" alt="">
+                                        <button class="btn-see">Смотреть онлайн</button>
+                                        <button class="btn-iz">Добавить в избранное</button>
+                                    </div>
+                                    <div class="film-card">
+                                        5
+                                        <img class='one' src="images/2021f5.jpg" alt="">
+                                        <button class="btn-see">Смотреть онлайн</button>
+                                        <button class="btn-iz">Добавить в избранное</button>
+                                    </div>
+                                    <div class="film-card">
+                                        6
+                                        <img class='one' src="images/2021f6.jpg" alt="">
+                                        <button class="btn-see">Смотреть онлайн</button>
+                                        <button class="btn-iz">Добавить в избранное</button>
+                                    </div>
+                                    <div class="film-card">
+                                        7
+                                        <img class='one' src="images/f2021.jpg" alt="">
+                                        <button class="btn-see">Смотреть онлайн</button>
+                                        <button class="btn-iz">Добавить в избранное</button>
+                                    </div>
+                               
+                                </div>
+                    </div>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#"><i class="fa"></i>Подписки</a>
+                            <ul>
+                                <li><a href="#"><i class="fa"></i>Подписка на день</a>
+                                    <ul>
+                                        <li><a href="#">Стоимость в будние дни</a></li>
+                                        <li><a href="#">Стоимость в выходные дни</a></li>
+                                        <li><a href="#">Стоимость в праздничные дни</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><i class="fa"></i>Подписка на неделю</a>
+                                    <ul>
+                                        <li><a href="#">Стоимость в будние дни</a></li>
+                                        <li><a href="#">Стоимость в выходные дни</a></li>
+                                        <li><a href="#">Стоимость в праздничные дни</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><i class="fa"></i>Подписка на месяц</a>
+                                    <ul>
+                                        <li><a href="#">Стоимость в будние дни</a></li>
+                                        <li><a href="#">Стоимость в выходные дни</a></li>
+                                        <li><a href="#">Стоимость в праздничные дни</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><i class="fa"></i>Пакеты</a>
+                            <ul>
+                                <li><a href="#">Стоимость в будние дни</a></li>
+                                <li><a href="#">Стоимость в выходные дни</a></li>
+                                <li><a href="#">Стоимость в праздничные дни</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><i class="fa"></i>Акции</a>
+                            <ul>
+                                <li><a href="#">Стоимость в будние дни</a></li>
+                                <li><a href="#">Стоимость в выходные дни</a></li>
+                                <li><a href="#">Стоимость в праздничные дни</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.0692414913024!2d37.76338805108309!3d55.70516818044511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab5a707ea9d4d%3A0x51d954b568a45d85!2z0JzQtdGC0YDQviDQmtGD0LfRjNC80LjQvdC60Lg!5e0!3m2!1sru!2sru!4v1619675964536!5m2!1sru!2sru"
+                        allowfullscreen="" loading="lazy"></iframe>
+             
+                    </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="adress">
+                <ul> <span>Наши адреса</span> 
+                    <li>
+                        Москва ул. Зеленодольская, 40
+                    </li>
+                    <li>
+                        Москва Магистральный пер., 6
+                    </li>
+                    <li>
+                        Москва Каргопольская ул., 36
+                    </li>
+                </ul>
+            </div>
+            <div class="concat">
+                <ul><span>Контакты</span>
+                    <li>
+                        8 800-900-500-200
+                    </li>
+                    <li>
+                        8 200-600-200-900
+                    </li>
+                    <li>
+                        8 900-400-100-800
+                    </li>
+                </ul>
+            </div>
+            <div class="social-network">
+                <ul> <span>Социальные сети</span>
+                    <li>
+                        <img class="insta"  src="images/instagram-icon_1057-2227.jpg" alt="">
+                        <a class="footer-a" href="#">instagram.com</a>
+                    </li>
+                    <li>
+                        <img  class="vk" src="images/vk.jpg" alt="">
+                        <a class="footer-a" href="#">vk.com</a>
+                    </li>
+                    <li>
+                        <img  class="facebook" src="images/FaceBook.png" alt="">
+                        <a class="footer-a" href="#">faceBook.com</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <div class="footer-page">Наш сайт www.kino.com </div>
+
+    </div>
+
+
+
+
+
+<script src="popup.js"></script>
+<script src="slider.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
